@@ -1,0 +1,20 @@
+{
+    "collections": {
+        "numbers": {
+            "name": "Цифры",
+            "cards": [
+              {"name-ru":"Один"},
+              {"name-ru":"Два"},
+              {"name-ru":"Три"}
+            ]
+        },
+        "animals": {
+            "name": "Животные",
+            "cards": [
+              {"name-ru":"Кошка"},
+              {"name-ru":"Собака"},
+              {"name-ru":"Жираф"}
+            ]
+        }
+    }
+}
