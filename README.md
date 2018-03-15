@@ -1,6 +1,3 @@
-Cards for kids mobile APP
+Cards for kids mobile app
 ================================
-
-[![travis][travis-img]][travis]
-[travis]:          https://travis-ci.org/simareeno/cards?branch=master
-[travis-img]:      https://img.shields.io/travis/simareeno/cards/master.svg?label=unix
+[![Build Status](https://travis-ci.org/simareeno/cards.svg?branch=master)](https://travis-ci.org/simareeno/cards)
