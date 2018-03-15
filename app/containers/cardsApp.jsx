@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import cards from '../../cards.json';
 import Routes from '../routes';
 
-export default class CardsApp extends React.Component {
+export default class CardsApp extends Component {
   render() {
     return <Routes />;
   }

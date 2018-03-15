@@ -9,6 +9,6 @@ export default function appReducer(state = {}, action) {
   }
 }
 
-function handleSample(state, action) {
+function handleSample(state) {
   return state;
 }
