@@ -1,7 +1,8 @@
 export default {
   unit: 12,
-  color: {
-    white: '#FFFFFF'
+  colors: {
+    beige: '#FFEFE6',
+    accent: '#31C7A9'
   },
   borderRadius: 4
 };

@@ -4,6 +4,7 @@ import Type from 'prop-types';
 
 export default class Collection extends Component {
   styles = StyleSheet.create({
+    collection: this.props.style,
     view: {
       width: this.props.width,
       height: this.props.width,
@@ -13,7 +14,7 @@ export default class Collection extends Component {
       borderRadius: 20
     },
     text: {
-      color: '#1FC8A9',
+      color: '#333',
       fontSize: 20,
       fontWeight: 'bold'
     }
@@ -21,7 +22,7 @@ export default class Collection extends Component {
 
   render() {
     return (
-      <TouchableOpacity style={ this.styles.view } onPress={ this.props.onPress }>
+      <TouchableOpacity style={ this.styles.collection } onPress={ this.props.onPress }>
         <Text style={ this.styles.text }>{this.props.name}</Text>
       </TouchableOpacity>
     );
@@ -31,7 +32,10 @@ export default class Collection extends Component {
 Collection.propTypes = {
   name: Type.string,
   onPress: Type.func,
-  width: Type.number
+  width: Type.number,
+  style: Type.shape({
+    property: Type.string
+  })
 };
 
 Collection.defaultProps = {

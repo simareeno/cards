@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, ScrollView } from 'react-native';
 import Card from '../components/card';
+import VARS from '../vars';
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 25,
     flexDirection: 'row',
     flexWrap: 'wrap',
-    backgroundColor: '#FFEFE5'
+    backgroundColor: VARS.colors.beige
   },
   card: {
     width: '100%',

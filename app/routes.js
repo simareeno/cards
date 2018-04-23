@@ -20,7 +20,7 @@ export default StackNavigator(
         elevation: 0,
         shadowOpacity: 0
       },
-      headerTintColor: '#31C8AA',
+      headerTintColor: '#333',
       headerBackTitle: null,
       title: null
     }

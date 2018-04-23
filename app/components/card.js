@@ -16,8 +16,13 @@ const styles = StyleSheet.create({
     width: width - 40,
     height: width - 40,
     backgroundColor: 'white',
-    borderRadius: 50,
     marginBottom: 50
+  },
+  imageView: {
+    borderRadius: 50,
+    width: width - 40,
+    height: width - 40,
+    overflow: 'hidden'
   },
   text: {
     fontSize: 50,
@@ -30,10 +35,12 @@ export default class Card extends Component {
   render() {
     return (
       <View style={ styles.view }>
-        <Image
-          source={ this.props.image }
-          style={ styles.image }
-        />
+        <View style={ styles.imageView }>
+          <Image
+            source={ this.props.image }
+            style={ styles.image }
+          />
+        </View>
         <Text style={ styles.text }>{this.props.name}</Text>
       </View>
     );
